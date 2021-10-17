@@ -1,0 +1,15 @@
+#useForm
+
+Ejemplo:
+
+```
+
+const initialForm = {
+    name: "",
+    age : number,
+    email: "",
+};
+
+const [formulary , handleInputChange, reset] = useForm(initialForm = {});
+
+```
